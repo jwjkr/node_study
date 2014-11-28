@@ -1,0 +1,18 @@
+//
+   Created by pc on 2014/11/10.
+extends layout
+block content
+    - if (items.length)
+    .col-md-3
+        table.table.table-hover.table-bordered.table-striped.table-condensed
+            tr.success
+                td.text-center 序号
+                td.text-center 内容
+                td.text-center 日期
+                td.text-center 日期
+            - items.forEach(function(item){
+                tr
+                    td.text-center #{item.id}
+                    td.text-center #{item.info}
+                    td.text-center #{item.date}
+            - })

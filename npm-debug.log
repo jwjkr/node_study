@@ -1,0 +1,80 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'publish' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose publish [ '.' ]
+6 verbose cache add [ '.', null ]
+7 verbose cache add name=undefined spec="." args=[".",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: '.',
+8 verbose parsed url   path: '.',
+8 verbose parsed url   href: '.' }
+9 silly lockFile 3a52ce78- .
+10 verbose lock . C:\Users\Administrator\AppData\Roaming\npm-cache\3a52ce78-.lock
+11 verbose tar pack [ 'C:\\Users\\Administrator\\AppData\\Roaming\\npm-cache\\generated-express-app\\0.0.0\\package.tgz',
+11 verbose tar pack   '.' ]
+12 verbose tarball C:\Users\Administrator\AppData\Roaming\npm-cache\generated-express-app\0.0.0\package.tgz
+13 verbose folder .
+14 info prepublish generated-express-app@0.0.0
+15 silly lockFile 1f1177db-tar tar://.
+16 verbose lock tar://. C:\Users\Administrator\AppData\Roaming\npm-cache\1f1177db-tar.lock
+17 silly lockFile 2d13478f-ed-express-app-0-0-0-package-tgz tar://C:\Users\Administrator\AppData\Roaming\npm-cache\generated-express-app\0.0.0\package.tgz
+18 verbose lock tar://C:\Users\Administrator\AppData\Roaming\npm-cache\generated-express-app\0.0.0\package.tgz C:\Users\Administrator\AppData\Roaming\npm-cache\2d13478f-ed-express-app-0-0-0-package-tgz.lock
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile 1f1177db-tar tar://.
+21 silly lockFile 2d13478f-ed-express-app-0-0-0-package-tgz tar://C:\Users\Administrator\AppData\Roaming\npm-cache\generated-express-app\0.0.0\package.tgz
+22 silly lockFile 2d13478f-ed-express-app-0-0-0-package-tgz tar://C:\Users\Administrator\AppData\Roaming\npm-cache\generated-express-app\0.0.0\package.tgz
+23 silly lockFile 7c642d19-erated-express-app-0-0-0-package C:\Users\Administrator\AppData\Roaming\npm-cache\generated-express-app\0.0.0\package
+24 verbose lock C:\Users\Administrator\AppData\Roaming\npm-cache\generated-express-app\0.0.0\package C:\Users\Administrator\AppData\Roaming\npm-cache\7c642d19-erated-express-app-0-0-0-package.lock
+25 silly lockFile 7c642d19-erated-express-app-0-0-0-package C:\Users\Administrator\AppData\Roaming\npm-cache\generated-express-app\0.0.0\package
+26 silly lockFile 7c642d19-erated-express-app-0-0-0-package C:\Users\Administrator\AppData\Roaming\npm-cache\generated-express-app\0.0.0\package
+27 silly lockFile 3a52ce78- .
+28 silly lockFile 3a52ce78- .
+29 silly publish { name: 'generated-express-app',
+29 silly publish   version: '0.0.0',
+29 silly publish   private: true,
+29 silly publish   scripts: { start: 'node ./bin/www' },
+29 silly publish   dependencies:
+29 silly publish    { express: '~4.9.0',
+29 silly publish      'body-parser': '~1.8.1',
+29 silly publish      'cookie-parser': '~1.3.3',
+29 silly publish      morgan: '~1.3.0',
+29 silly publish      'serve-favicon': '~2.1.3',
+29 silly publish      debug: '~2.0.0',
+29 silly publish      jade: '~1.6.0' },
+29 silly publish   readme: 'ERROR: No README data found!',
+29 silly publish   _id: 'generated-express-app@0.0.0',
+29 silly publish   _shasum: 'd351a37dac31003a6f7d304812bf59a296aa0a23',
+29 silly publish   _from: '.' }
+30 error Error: This package has been marked as private
+30 error Remove the 'private' field from the package.json to publish it.
+30 error     at publish_ (C:\Program Files\nodejs\node_modules\npm\lib\publish.js:91:31)
+30 error     at Array.1 (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\bind-actor.js:15:8)
+30 error     at LOOP (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\chain.js:15:14)
+30 error     at LOOP (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\chain.js:14:28)
+30 error     at chain (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\chain.js:20:5)
+30 error     at C:\Program Files\nodejs\node_modules\npm\lib\publish.js:57:5
+30 error     at C:\Program Files\nodejs\node_modules\npm\node_modules\inflight\inflight.js:22:7
+30 error     at Array.forEach (native)
+30 error     at res (C:\Program Files\nodejs\node_modules\npm\node_modules\inflight\inflight.js:21:9)
+30 error     at f (C:\Program Files\nodejs\node_modules\npm\node_modules\once\once.js:16:25)
+31 error If you need help, you may report this *entire* log,
+31 error including the npm and node versions, at:
+31 error     <http://github.com/npm/npm/issues>
+32 error System Windows_NT 6.1.7601
+33 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "publish"
+34 error cwd E:\backup\NodeJS_Express
+35 error node -v v0.10.33
+36 error npm -v 1.4.28
+37 verbose exit [ 1, true ]
